@@ -7,10 +7,9 @@ def turn_count(board)
   board.count{|turn| turn == "X" || turn == "O"}
 end
 
-def current_player
+def current_player(board)
   
 end
-#1. Use iteration to loop over an array.
-#2. Control the return value of a method that uses iteration in the method body.
-#3. Describe and utilize the `%`, or modulo, operator.
-#4. Call a method from inside of another method.
+
+#use turn_count method to determine
+ #if it is x turn or O
