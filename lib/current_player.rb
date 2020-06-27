@@ -6,6 +6,10 @@ board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 def turn_count(board)
   board.count{|turn| turn == "X" || turn == "O"}
 end
+
+def current_player
+  
+end
 #1. Use iteration to loop over an array.
 #2. Control the return value of a method that uses iteration in the method body.
 #3. Describe and utilize the `%`, or modulo, operator.
