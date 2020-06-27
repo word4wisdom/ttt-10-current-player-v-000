@@ -5,9 +5,9 @@ def turn_count(board)
 end
 
 def current_player(board)
-  turn_count(board)
+  turn_count(board) % 2 == 0 ? "X":"O"
+  end
 end
-
 #use turn_count method to determine
  #if it is x turn or O
  #if turn_count == even return x 
