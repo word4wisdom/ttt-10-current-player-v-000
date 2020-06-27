@@ -15,3 +15,4 @@ end
  #if it is x turn or O
  #if turn_count == even return x 
  # else O
+ #modulo operator
