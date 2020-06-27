@@ -8,7 +8,7 @@ def turn_count(board)
 end
 
 def current_player(board)
-  
+  turn_count(board)
 end
 
 #use turn_count method to determine
