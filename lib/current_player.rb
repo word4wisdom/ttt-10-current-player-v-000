@@ -8,9 +8,7 @@ def turn_count(board)
 board.each do |turn_count|
   counter = 0
     if 
-turn_count == "X" || turn_count =="O"  counter += 1
-  end
-end
+turn_count == "X" || turn_count =="O"  counter +
 
 
 #1. Use iteration to loop over an array.
