@@ -13,3 +13,5 @@ end
 
 #use turn_count method to determine
  #if it is x turn or O
+ #if turn_count == even return x 
+ # else O
