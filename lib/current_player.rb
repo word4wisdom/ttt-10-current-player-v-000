@@ -16,3 +16,4 @@ end
  #if turn_count == even return x 
  # else O
  #modulo operator
+ #apple_stock > 1 ? :eat_apple :buy_apple
