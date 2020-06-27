@@ -4,13 +4,8 @@ board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 #Keep in mind the desired return value of the #turn_count method is the number of turns that have been played.
 
 def turn_count(board)
-  
-board.each do |turn_count|
-  counter = 0
-    if 
-turn_count == "X" || turn_count =="O"  counter +
-
-
+  board.count{|turn| turn == "X" || turn == "O"}
+end
 #1. Use iteration to loop over an array.
 #2. Control the return value of a method that uses iteration in the method body.
 #3. Describe and utilize the `%`, or modulo, operator.
